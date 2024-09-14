@@ -11,11 +11,13 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress_password
       WORDPRESS_DB_NAME: wordpress_db
 
-      # Admin setup
+      # Site setup info
+      WORDPRESS_SITE_URL: http://localhost:8080
+      WORDPRESS_SITE_TITLE: "My Awesome WordPress Site"
       WORDPRESS_ADMIN_USER: admin
       WORDPRESS_ADMIN_PASSWORD: admin_password
       WORDPRESS_ADMIN_EMAIL: admin@example.com
-      WORDPRESS_URL: http://localhost:8080
+      WORDPRESS_LOCALE: en_US
       
     volumes:
       - ./wordpress:/var/www/html

@@ -20,3 +20,7 @@ This will start the services defined in your docker-compose.yml in the backgroun
 
 When you want to stop and terminate the services, use:
 > docker-compose down
+
+### Login Info ###
+Username: admin
+Password: admin_password
